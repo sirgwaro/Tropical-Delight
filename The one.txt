@@ -1,0 +1,138 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cinnamon Roll Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d2691e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #a0522d;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #8b4513;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #d2691e;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x500');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .menu-item img {
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Happiness in a bite</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+    <h1>Welcome to Happiness in a bite!</h1>
+    <p>Indulge in the best cinnamon rolls and the best muffins in town, freshly baked daily.</p>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>At Your Cinnamon Roll Shop, we pride ourselves on baking the freshest and most delicious cinnamon rolls. Our recipe has been perfected over the years, and we use only the finest ingredients to ensure that every bite is a delight. Whether you’re stopping by for a quick treat or ordering for a special event, we’re here to make your day a little sweeter.</p>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/150" alt="Classic Cinnamon Roll">
+        <div>
+            <h3>Classic Cinnamon Roll</h3>
+            <p>The original, topped with creamy frosting and a sprinkle of cinnamon.</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/150" alt="Chocolate Cinnamon Roll">
+        <div>
+            <h3>Chocolate Cinnamon Roll</h3>
+            <p>A rich twist on our classic roll, with a decadent chocolate filling.</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/150" alt="Maple Pecan Cinnamon Roll">
+        <div>
+            <h3>Maple Pecan Cinnamon Roll</h3>
+            <p>A delicious combination of maple syrup and crunchy pecans.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to place an order? Reach out to us!</p>
+    <p>Email: <a href="mailto:info@happinessinabite.com">info@happinessinabite.com</a></p>
+    <p>Phone: (+254)758962299</p>
+    <p>Address: 123 Cinnamon St, Sweet City, SC 12345</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Cinnamon Roll Shop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+```
+
+### Instructions to Use:
+1. **Save the file**: Copy the HTML code and save it as `index.html`.
+2. **Customize Images**: Replace the placeholder image URLs with actual images of your cinnamon rolls.
+3. **Host the Website**: Upload the `index.html` file to your web hosting service.
+
+This template includes sections for Home, About, Menu, and Contact, and uses simple CSS for styling. Feel free to adjust the content and design to better fit your shop's personality and brand.
